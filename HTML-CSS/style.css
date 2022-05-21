@@ -1,0 +1,138 @@
+/*Reglas basicas*/
+body {
+  background-color: white;
+  width: 100%;
+  overflow: auto;
+}
+
+main {
+  display: flex;
+}
+
+header {
+  list-style-type: none;
+  background-color: #bb1919;
+  width: 100%;
+}
+
+section {
+  margin-top: 10px;
+  margin-right: 80px;
+  margin-left: 80px;
+  color: #303030;
+  cursor: pointer;
+  float: left;
+  width: 70%;
+}
+
+aside {
+  float: right;
+  width: 30%;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+article {
+  height: auto;
+}
+
+/*Media query en 400*/
+@media (max-width: 400px) {
+    header {
+    list-style-type: none;
+    width: 200%;
+    padding: 0;
+    border: 0;
+    margin-right: 0;
+    flex-direction: column;
+  }
+  section {
+    margin-top: 10px;
+    margin-right: 80px;
+    margin-left: 80px;
+    width: 70%;
+  }
+  aside {
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+}
+
+/*Media query en 200 y 50*/
+@media (max-width: 200px) and (max-width: 50px) {
+    header {
+    list-style-type: none;
+    width: 300%;
+    padding: 0;
+    border: 0;
+    margin-right: 0;
+    flex-direction: column;
+  }
+  section {
+    margin-top: 10px;
+    margin-right: 80px;
+    margin-left: 80px;
+    color: #303030;
+    cursor: pointer;
+    float: left;
+    width: 70%;
+  }
+  aside {
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+}
+
+/*Reglas de clases*/
+.linea-menu {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.main-body {
+  width: 90%;
+  display: inline-block;
+  height: auto;
+}
+
+.logo {
+  padding: 16px 0px 12px;
+}
+
+/*Parte del menu de la pagina*/
+#Menu {
+  display: inline-block;
+  color: white;
+  padding: 0%;
+}
+
+#Menu ul {
+  list-style: none;
+  display: block;
+  list-style-type: disc;
+}
+
+#Menu li {
+  display: inline-block;
+  padding: 12px 8px;
+  font-size: large;
+  padding-inline-start: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#Menu li a {
+  color: white;
+  font: 16px ReithSans, Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#Menu li a:hover {
+  text-decoration: white underline 3px;
+}
