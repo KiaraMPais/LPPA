@@ -1,0 +1,29 @@
+h1 {
+    color: green;
+    margin-top: 0px;
+}
+
+.parrafos {
+    margin: 5px;
+}
+
+ul {
+    color: blue;
+}
+
+.html {
+    color: rgb(15, 146, 26);
+    text-decoration: underline;
+}
+
+.sub_parrafo {
+    color: orange;
+}
+
+main{
+    font: arial;
+    font-size: large;
+    border: 1px solid black;
+    margin: 0 auto;
+    width: 40%;
+}
